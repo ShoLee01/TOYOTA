@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto&display=swap');
+
+body{
+    color: while;
+}
+.color_menu
+{
+    color: #1E2021;
+    background-color: #fff;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #1E2021;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus
+{
+    color: #e01414;    
+}
+.text_color_main
+{
+    color: #1E2021;
+}
+
+.text_color_contenido
+{
+    color: #1E2021;
+}
+.table-hover tbody tr:hover {
+    background-color: grey;
+    color: white;
+}
+.main
+{
+    background-color: #2C2E30;
+    
+}
+
+.display-5 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.display-6 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.fondo_footer
+{
+    background-color: #151516;
+}
+#home{
+  color: while;
+  font-size: 2vw;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.text_color_main
+{
+    color: white;
+}
+.section-inicio{
+    padding: 0%;
+    position: relative; 
+}
+.Text_1{ 
+    position: absolute; 
+    display:inline;
+    color: #fff;
+    font-size: 2.5vw;
+    font-family: 'Roboto', sans-serif;
+   left: 2%;
+    top: 35%; 
+    width: 100%; 
+}
+.text-co{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+}
+.footer_logo{
+  width: 65%;
+}
+/* Formularios */
+.label_form
+{
+color: white;
+}
+
+.label_font
+{
+font-family: 'Roboto', sans-serif;
+color: white;
+font-size: 2vh;
+}
+/* Formulario */
+
+/* Querys */
+@media only screen and (max-width: 574px) {
+    .Text_1{ 
+        position: absolute; 
+       
+        display:inline;
+        color: #fff;
+        font-size: 9vw;
+        font-family: 'Roboto', sans-serif;
+       left: 1.6%;
+        top: 60%; 
+        width: 100%; 
+    }
+    .text-co{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 6vw;
+    }
+    #home{
+        font-size: 9vw;
+        margin-top: 10%;
+        margin-bottom:10% ;
+    }
+    .label_font{
+        font-size: 5vw;
+    }
+}
+/* Querys */

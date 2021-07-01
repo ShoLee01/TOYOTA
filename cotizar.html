@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toyota</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/cotizar.css">
+    <meta name="copyright" content="Toyota"> 
+    <meta name="Description" content="página de cotización para los autos toyota">
+    <meta name="keywords" content="cotizar, precio, modelo" >
+    <link rel="icon" href="">
+    
+</head>
+
+<body class="main">
+    <!-- Header -->
+    <header class="sticky-top">
+      
+      
+        <nav class="navbar navbar-expand-md navbar-light  color_menu">
+                 
+            
+                <a class="navbar-brand " href="index.html">
+                    <img src="Imagenes/Logo.svg" width="120" height="40" class="d-inline-block align-top" alt="" loading="lazy">
+                  
+                </a>
+
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <div class="navbar-nav ml-auto text-center color_menu">
+                  <a class="nav-item nav-link" href="index.html">Inicio</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-item nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><i class="fa fa-truck"></i>
+                      Mundo Toyota</a>
+                      <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item text-while" href="MundoToyota.html#histoaria">Historia</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item text-while" href="MundoToyota.html#mision" >Misión</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item text-while" href="MundoToyota.html#vision">Visión</a>           
+                      </div>
+                  </li>
+                    
+                    <a class="nav-item nav-link" href="cotizar.html">Cotizar</a>
+                    <a class="nav-item nav-link" href="specs.html">Nuestros últimos modelos</a>
+                    <a class="nav-item nav-link" href="#">Beneficios</a>
+                    <a class="nav-item nav-link" href="#">Contáctenos</a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+<!-- Header -->
+
+    <main>
+<!-- Section 1 -->        
+      <section class="container-fluid jumbotron p-0 m-0">
+        <div class="container-fluid section-inicio">
+          <img src="Imagenes/Cotizar_img.jpg" class="img-fluid w-100 d-none d-sm-block" alt="...">
+          <img class="d-block d-sm-none" src="Imagenes/ImagenCotizar_mini.svg">
+          <div class="container-sm Text_1"> 
+           
+                <p>
+                  COTIZADOR TOYOTA</b>  <br>
+                  <span class="text-co">Cotiza el modelo que más te guste.</span>
+                  </p>
+           
+             
+            </div> 
+        </div>
+      </section>
+  <!-- Section 1 -->     
+  <h1 class="display-1 text-center font-weight-bold text_color_main " id="home">ESPECIFICAIONES <b>TÉCNICA</b></h1>
+  
+  
+  <!-- Formularios -->
+  <div class="container container_form">
+    <h2 class="display-6 text-star font-weight-bold label_font">DATOS DEL<b> CLIENTE</b></h2>
+    <form class="container_form">
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <input type="input" class="form-control" id="Nombre" placeholder="Nombre*">
+          </div>
+          <div class="form-group col-md-4">
+            <input type="input" class="form-control" id="Apellido" placeholder="Apellido*">
+          </div>
+          <div class="form-group col-md-4">
+            <input type="tel" class="form-control" id="Telefono" placeholder="Teléfono*">
+          </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <select id="TipoDocumento" class="form-control">
+                  <option selected>Tipo documento*</option>
+                  <option>DNI</option>
+                  <option>CARNÉ EXTRANJERO</option>
+                </select>
+            </div>
+            <div class="form-group col-md-6">
+              <input type="input" class="form-control" id="NDocumento" placeholder="Número de Documento*">
+            </div>
+          </div>
+
+
+        <div class="form-group">
+          <input type="email" class="form-control" id="Email" placeholder="Correo eléctronico*">
+        </div>
+
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <select id="Cuidad" class="form-control">
+                  <option selected>Cuidad*</option>
+                  <option>Lima</option>
+                  <option>Chosica</option>
+                  <option>Huacho</option>
+                  <option>Barranca</option>
+                  <option>Huaral</option>
+
+                </select>
+            </div>
+            
+            <div class="form-group col-md-6">
+                <select id="TipoDocumento" class="form-control">
+                  <option selected>Departamento*</option>
+                  <option>Lima</option>
+                  <option>Trujillo</option>
+                  <option>Chiclayo</option>
+                  <option>Piura</option>
+                  <option>Tumbes</option>
+                </select>
+            </div>
+
+        </div>
+
+        <p class="label_form">(*)Datos obligatorios</p>
+        <p class="label_form">(**)Almenos uno</p>
+
+
+<!--  -->
+<div class="form-row">
+    <div class="form-group col-md-6">
+        <h2 class="display-6 text-star font-weight-bold label_font">DATOS DEL VEHÍCULO</h2>
+        <label class="label_form" for="input">Modelo*</label>
+        <select id="TipoDocumento" class="form-control">
+          <option selected>Seleccione un modelo*</option>
+          <option>Toyota Yaris</option>
+          <option>Toyota Rush</option>
+          <option>Toyota Rav4</option>
+          <option>Toyota Prius</option>
+          <option>Toyota Prius C</option>
+        </select>
+        <label class="label_form" for="input">Version*</label>
+        <select id="Version" class="form-control">
+            <option selected>Seleccione una version*</option>
+            <option>2021</option>
+            <option>2020</option>
+            <option>2019</option>
+            <option>2018</option>
+            <option>2017</option>
+          </select>
+          <label class="label_form" for="input">Color*</label>
+          <select id="Version" class="form-control">
+            <option selected>Seleccione un color*</option>
+            <option>Blanco</option>
+            <option>Rojo</option>
+            <option>Amarillo</option>
+            <option>Negro</option>
+            <option>Azull</option>
+          </select>
+    </div>
+
+    <div class="form-group col-md-6">
+        <h2 class="display-6 text-star font-weight-bold label_font">DATOS DE CONCESIONARIOS</b></h2>
+        <label class="label_form" for="input">Ubicación*</label>
+        <select id="Ubicación" class="form-control">
+            <option selected>Seleccione una Ubicación*</option>
+            <option>Perú</option>
+            <option>Argentina</option>
+            <option>Chile</option>
+            <option>Brazil</option>
+            <option>Colombia</option>
+          </select>
+          <label class="label_form" for="input">Concesionario*</label>
+          <select id="Concesionario" class="form-control">
+            <option selected>Seleccione una Ubicación*</option>
+            <option>...</option>
+          </select>
+          <label class="label_form" for="input">Comentario/Observacion</label>
+          <div class="form-group">
+            <textarea style="border: none; height: 40% ; width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;" class="mensaje_a" name="" id="mensaje" ></textarea>
+          </div>
+          
+          
+          
+    </div>
+
+</div>
+<!--  -->
+
+        
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="label_form" class="form-check-label" for="gridCheck">
+                Acepto que Toyota utilice mi información para los fines contenidos en la cláusula. Ver detalle Al enviar el formulario, acepto los términos y condiciones y la política de privacidad.
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-danger btn-lg">Enviar</button>
+      </form>
+  </div>
+  <!-- Formularios -->
+  <!-- Footer -->
+<footer class="container-fluid text-center text-lg-start text-muted p-0">
+ 
+    <section
+      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+    >
+   
+      <div class="me-5 d-none d-lg-block">
+        
+      </div>
+    
+  
+     
+    </section>
+   
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        
+        <div class="row mt-3">
+         
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 w-40">
+           
+            <img class="footer_logo" src="/Imagenes/logo_footer.svg" alt="">
+          </div>
+         
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 text-white">
+          
+            <h6 class="text-uppercase fw-bold mb-4">
+              COMPRA TU TOYOTA
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">AUTOS NUEVOS</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">COLIZITAR COTIZACIÓN</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">COMPRAR MODELOS</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">TOYOTA GAS</a>
+            </p>
+          </div>
+        
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-white">
+         
+            <h6 class="text-uppercase fw-bold mb-4">
+              POSVENTA
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">SERVICIO</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">SEGURO TOYOTA</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">ACCESORIOS TOYOTA</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">REPUESTOS</a>
+            </p>
+          </div>
+        
+  
+      
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-white">
+            
+            <h6 class="text-uppercase fw-bold mb-4">
+              CONTACTANOS
+            </h6>
+            <p><i class="fas fa-home me-3"></i>  Av. Alfredo Mendiola, Cercado de Lima 05222</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@Toyota.com
+            </p>
+            
+  
+            <p><i class="fas fa-phone me-3"></i>LÍNEA GRATUITA</p>
+            <p><i class="fas fa-print me-3"></i> + 0800-00669</p>
+          </div>
+      
+        </div>
+    
+      </div>
+    </section>
+  
+    <div class="text-center p-4 text-white" style="background-color: rgba(0, 0, 0, 0.05);">
+      POLITICA DE PRIVACIDAD |TÉRMINOS Y CONDICIONES | TEXTO LEGAL DE CAMPAÑAS        <BR></BR> © 2021 Copyright:
+      <a class="text-reset fw-bold" target="_blank" href="https://www.toyotaperu.com.pe/" >ToyotaPeru.com</a>
+    </div>
+   
+  </footer>
+  <!-- Footer -->
+      <script defer src="js/main.js"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+      
+  
+</body>
+</div>
+</html>
